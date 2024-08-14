@@ -12,9 +12,10 @@
 //WriteLine($"double - number of bytes: {sizeof(double)}, min: {double.MinValue}, max {double.MaxValue}");
 //WriteLine($"decimal - number of bytes: {sizeof(decimal)}, min: {decimal.MinValue}, max {decimal.MaxValue}");
 
-WriteLine("--------------------------------------------------------------------------");
+//WriteLine("--------------------------------------------------------------------------");
+WriteLine(new string('-', 74));
 WriteLine("Type    Byte(s) of memory               Min                            Max");
-WriteLine("--------------------------------------------------------------------------");
+WriteLine(new string('-', 74));
 WriteLine($"sbyte   {sizeof(sbyte),-4} {sbyte.MinValue,30} {sbyte.MaxValue,30}");
 WriteLine($"byte    {sizeof(byte),-4} {byte.MinValue,30} {byte.MaxValue,30}");
 WriteLine($"short   {sizeof(short),-4} {short.MinValue,30} {short.MaxValue,30}");
@@ -26,4 +27,4 @@ WriteLine($"ulong   {sizeof(ulong),-4} {ulong.MinValue,30} {ulong.MaxValue,30}")
 WriteLine($"float   {sizeof(float),-4} {float.MinValue,30} {float.MaxValue,30}");
 WriteLine($"double  {sizeof(double),-4} {double.MinValue,30} {double.MaxValue,30}");
 WriteLine($"decimal {sizeof(decimal),-4} {decimal.MinValue,30} {decimal.MaxValue,30}");
-WriteLine("--------------------------------------------------------------------------");
+WriteLine(new string('-', 74));

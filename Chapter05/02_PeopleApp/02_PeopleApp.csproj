@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_02_PeopleApp</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\01_PacktLibrary\01_PacktLibrary.csproj" />
+    <ProjectReference Include="..\03_PacktLibraryModern\03_PacktLibraryModern.csproj" />
+  </ItemGroup>
+
+</Project>

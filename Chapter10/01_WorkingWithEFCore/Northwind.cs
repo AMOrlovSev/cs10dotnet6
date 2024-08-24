@@ -29,7 +29,12 @@ public class Northwind : DbContext
             //"MultipleActiveResultSets=true;";
             //optionsBuilder.UseSqlServer(connection);
 
-            string connection = "Data Source =.; Initial Catalog = Northwind; Integrated Security = true; Encrypt = true; TrustServerCertificate = true";
+            string connection = @"Data Source =.; 
+                            Initial Catalog = Northwind; 
+                            Integrated Security = true; 
+                            Encrypt = true; 
+                            TrustServerCertificate = true;
+                            MultipleActiveResultSets=true";
             optionsBuilder.UseSqlServer(connection);
         }
     }
